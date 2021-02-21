@@ -7,7 +7,8 @@ CREATE TABLE employee(
 	last_name VARCHAR NOT NULL,
 	sex VARCHAR NOT NULL,
 	hire_date DATE NOT NULL,
-	PRIMARY KEY (emp_no)
+	PRIMARY KEY (emp_no),
+	FOREIGN KEY(title_id) REFERENCES titles (title_id)
 );
 
 --creating an employee table

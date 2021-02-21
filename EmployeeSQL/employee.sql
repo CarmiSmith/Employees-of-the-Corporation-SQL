@@ -21,8 +21,8 @@ CREATE TABLE salaries(
 --listing employee number, last name, first name, sex and salary
 SELECT 
 	employee.emp_no,
-	employee.first_name,
 	employee.last_name,
+	employee.first_name,
 	employee.sex,
 	salaries.salary
 FROM employee
